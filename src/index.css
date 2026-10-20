@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-adbrowkie-blue: #9BE0FA;
+  --color-adbrowkie-darkBlue: #54C4ED;
+  --color-adbrowkie-brown: #4A2B19;
+  --color-adbrowkie-lightCream: #F9FBFD;
+}
+
+body {
+  background-color: var(--color-adbrowkie-lightCream);
+  color: var(--color-adbrowkie-brown);
+  font-family: system-ui, -apple-system, sans-serif;
+}
